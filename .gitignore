@@ -36,3 +36,9 @@
 
 #Intellij Files
 *.idea
+
+#Any License file
+*.lic
+
+#Vagrant Files
+*.vagrant
