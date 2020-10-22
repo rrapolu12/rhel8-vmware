@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Java Libraries
+*.class
+
+#Intellij Files
+*.idea
