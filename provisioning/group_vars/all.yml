@@ -1,0 +1,18 @@
+# Variables listed here are applicable to "java" roles
+---
+
+ansible_os_family: Redhat
+java_home: /usr/lib/jvm/java-8-openjdk-amd64/
+python_dir: /usr/bin/python
+
+############## Nginx Load Balancer Properties #########################
+loadbalancer_hostname: loadbalancer
+loadbalancer_ip: 10.0.50.42
+
+###############  REST URLNAMESPACE ##########################
+endpoint: /logic
+
+############## Webapp01 Properties #########################
+java8vm01_hostname: java8vm01
+java8vm01_ip: 10.0.50.41
+webapp01_port: 9999

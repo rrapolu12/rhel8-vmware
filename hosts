@@ -1,0 +1,17 @@
+[all]
+localhost
+webapp01
+webapp02
+mysqldb
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=vagrant
+ansible_ssh_pass=vagrant
+
+[webapp01]
+java8vm01.local ansible_host=10.0.50.41 ansible_port=2222 ansible_user='vagrant'
+
+[webapp01:vars]
+hostname=java8vm01.local
+appName=java8vm01
